@@ -1,0 +1,8 @@
+.Dflex{
+    display: flex;
+}
+.heading{
+    text-align: center;
+    padding-right: 600px;
+    margin-top: -500px !important;
+}
