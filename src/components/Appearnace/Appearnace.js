@@ -1,19 +1,18 @@
 import React from 'react'
 import Sidebar from '../Sidebar/Sidebar'
-import './Dashboard.css'
+import './Appear.css'
 
-const Dashboard = () => {
+const Appearnace = () => {
   return (
     <>
      <div className='dflex'>
       <Sidebar />
       <div >
-        <h1 className='head'>Dashboard</h1>
-    
+        <h1 className='head'>Appearnace</h1>
       </div>
      </div>
     </>
   )
 }
 
-export default Dashboard
+export default Appearnace

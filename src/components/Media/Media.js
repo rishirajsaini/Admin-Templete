@@ -1,19 +1,18 @@
 import React from 'react'
 import Sidebar from '../Sidebar/Sidebar'
-import './Dashboard.css'
+import './Media.css'
 
-const Dashboard = () => {
+const Media = () => {
   return (
     <>
      <div className='dflex'>
       <Sidebar />
       <div >
-        <h1 className='head'>Dashboard</h1>
-    
+        <h1 className='head'>media</h1>
       </div>
      </div>
     </>
   )
 }
 
-export default Dashboard
+export default Media

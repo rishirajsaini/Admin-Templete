@@ -1,13 +1,14 @@
 .nav-color2{
     box-shadow: 0  2px rgba(128, 128, 128, 0.37);
-     background-color: white;
+     background-color: black;
      position: relative;
 }
 
 
 .itemsColor2{
-    color: gray;
+    color:#6d4aeb;
     font-weight: bold;
+    text-shadow: 1px 1px white;
     
 }
 .logo-text2{
@@ -23,6 +24,47 @@
 .navbar-toggler{
     color: gray;
     
+}
+.logoRR{
+    color:#6d4aeb;
+    font-weight: bold;
+    text-shadow: 1px 1px white;
+    margin-top: 5px; 
+    font-size: 2rem;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .nav-color2{
+        box-shadow: 0  2px rgba(128, 128, 128, 0.37);
+         background-color: black;
+         position: relative;
+         /* height: 100px; */
+    }
+
+    .navbar-toggler{
+        color: black;
+        margin-top: -20px;
+        
+    }
+    .logoRR{
+        color:#6d4aeb;
+        font-weight: bold;
+        text-shadow: 1px 1px white;
+        margin-top: 5px; 
+        font-size: 2rem;
+        margin-top: -20px;
+    }
+    .itemsColor2{
+        color:#6d4aeb;
+        font-weight: bold;
+        text-shadow: 1px 1px white;
+        padding-top: -50px;
+        
+    }
+
 }
 
 
