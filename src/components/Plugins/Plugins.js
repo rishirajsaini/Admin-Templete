@@ -1,19 +1,17 @@
 import React from 'react'
 import Sidebar from '../Sidebar/Sidebar'
-import './Dashboard.css'
 
-const Dashboard = () => {
+const Plugins = () => {
   return (
     <>
      <div className='dflex'>
       <Sidebar />
       <div >
-        <h1 className='head'>Dashboard</h1>
-    
+        <h1 className='head'>Plugins</h1>
       </div>
      </div>
     </>
   )
 }
 
-export default Dashboard
+export default Plugins

@@ -1,7 +1,10 @@
 .dflex{
     display: flex;
-    /* width: 100%; */
+  
 
+}
+.head{
+  margin-right: 80vh;
 }
 .btnbox{
     width: 160px;
